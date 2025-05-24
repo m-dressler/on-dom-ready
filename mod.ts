@@ -6,7 +6,7 @@
  * onDomReady(() => console.log("DOM is ready"));
  * ```
  */
-export function onDomReady(callback: () => unknown): void {
+export default function onDomReady(callback: () => unknown): void {
   if (document.readyState !== "loading") callback();
   else document.addEventListener("DOMContentLoaded", callback);
 }
