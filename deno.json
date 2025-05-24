@@ -1,6 +1,6 @@
 {
   "name": "@md/on-dom-ready",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "ISC",
   "exports": "./mod.ts",
   "compilerOptions": { "lib": ["dom", "esnext"] },
